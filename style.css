@@ -10,6 +10,11 @@ html, body {
   min-height: 100%;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 .topo {
   display:flex;
   justify-content: space-between;
